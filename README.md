@@ -3,6 +3,9 @@
 ##  项目简介
 使用 PPO 算法在 CarRacing-v3 环境中训练自动驾驶策略，解决了稀疏奖励环境下的训练崩溃与探索失效问题。
 
+### 项目内容
+
+
 
 ##  核心挑战与解决方案
 
@@ -26,8 +29,14 @@
 # 1. 安装依赖
 pip install -r requirements.txt
 
-# 2. 测试模型
-python test.py --model_path models/best_model.zip
+# ‘复现’项目结构
+\`\`\`
+复现/
+├── car_train.py          # 训练 + 测试主脚本
+├── car_racing.py         # 自实现 PPO + ActorCritic 网络
+├── 训练日志/        # 8 阶段训练日志（JSON）和训练曲线图
+├── models/               # 训练好的模型权重      
+└── README.md
 \`\`\`
 
 ##  技术栈
