@@ -1,4 +1,4 @@
-# CarRacing PPO 深度调优
+# CarRacing PPO 深度调优（还在整理中）
 
 ##  项目简介
 使用 PPO 算法在 CarRacing-v3 环境中训练自动驾驶策略，解决了稀疏奖励环境下的训练崩溃与探索失效问题。
