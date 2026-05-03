@@ -17,7 +17,7 @@
 | 指标 | 优化前 | 优化后 |
 |------|--------|--------|
 | Eval Reward | -398 | +194 |
-| Action Std | 8.8 | 0.7 |
+| Action Std | 8.8 | 1.1 |
 | Explained Variance | -10 | 0.8 |
 
 ##  快速运行
